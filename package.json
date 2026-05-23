@@ -5,6 +5,8 @@
   "description": "Mock prototype for a smart bot detection and anti-scraping defense system.",
   "type": "module",
   "scripts": {
+    "start": "node server/index.js",
+    "build": "vite build client",
     "server": "node server/index.js",
     "dashboard": "vite --host 127.0.0.1 --port 5173 client",
     "simulate:bot": "node simulator/bot.js",
