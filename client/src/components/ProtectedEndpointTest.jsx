@@ -90,8 +90,8 @@ export function ProtectedEndpointTest() {
               padding: "4px 8px", 
               marginBottom: "4px", 
               borderRadius: "4px",
-              backgroundColor: log.state === "allow" ? "#111" : (log.state === "challenge" ? "#ffeb3b" : (log.state === "block" ? "#e43d30" : "transparent")),
-              color: log.state === "challenge" || !log.state ? "#111" : "#fff"
+              backgroundColor: log.state === "allow" ? "var(--border-color)" : (log.state === "challenge" ? "var(--accent-yellow)" : (log.state === "block" ? "var(--red)" : "transparent")),
+              color: log.state === "challenge" ? "#000" : "#fff"
             }}>
               &gt; {log.message}
             </div>
