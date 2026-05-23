@@ -1,0 +1,23 @@
+{
+  "name": "aiee",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mock prototype for a smart bot detection and anti-scraping defense system.",
+  "type": "module",
+  "scripts": {
+    "server": "node server/index.js",
+    "dashboard": "vite --host 127.0.0.1 --port 5173 client",
+    "simulate:bot": "node simulator/bot.js",
+    "simulate:human": "node simulator/human.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "express": "latest",
+    "ioredis": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,9 @@
+node_modules/
+client/node_modules/
+.vite-cache/
+client/node_modules/.vite/
+
+.env
+*.log
+
+dashboard-step7-preview.png
