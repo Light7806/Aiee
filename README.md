@@ -1,5 +1,4 @@
-# Aiee: Smart Bot Detection & Defense
-
+# Aiee: Smart Bot Detection & Defense 🛡️
 Aiee is a mock prototype for a smart bot detection and anti-scraping defense system. It acts as an intelligent middleware shield that protects sensitive APIs by scoring traffic and challenging or blocking suspicious requests.
 
 ## Current Prototype Features
